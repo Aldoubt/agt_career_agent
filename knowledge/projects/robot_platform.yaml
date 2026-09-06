@@ -1,0 +1,48 @@
+project:
+  name: tracked_mobile_robot_platform
+  domain:
+    - mobile_robotics
+    - ROS2
+    - embedded_system
+
+hardware:
+  chassis:
+    name: Bunker tracked robot
+    type: tracked_mobile_base
+    control:
+      - CAN bus
+
+  sensors:
+    lidar:
+      - Hesai MID360
+    imu:
+      - integrated IMU
+    gnss:
+      - RTK GNSS
+
+software_stack:
+  middleware:
+    - ROS2 Humble
+  system:
+    - Ubuntu Linux
+  development:
+    - C++
+    - Python
+
+engineering_focus:
+  - robot integration
+  - TF tree management
+  - URDF modeling
+  - sensor calibration
+  - hardware software co-design
+
+resume_keywords:
+  - ROS2
+  - Robot System Integration
+  - CAN Control
+  - Sensor Calibration
+
+thesis_keywords:
+  - mobile robot platform
+  - multi sensor system
+  - outdoor autonomous robot
