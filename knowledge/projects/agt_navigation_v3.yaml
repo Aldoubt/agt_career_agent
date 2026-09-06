@@ -1,0 +1,53 @@
+project:
+  name: agt_navigation_v3
+  category: robotics_navigation
+
+summary: |
+  ROS2 Humble based autonomous navigation framework for outdoor tracked robots.
+  The system integrates 3D LiDAR localization, continuous odometry estimation,
+  navigation planning and robot control.
+
+hardware:
+  platform:
+    - Bunker tracked chassis
+  sensors:
+    - Hesai MID360 LiDAR
+    - RTK GNSS
+    - IMU
+
+software:
+  middleware:
+    - ROS2 Humble
+
+  localization:
+    - FAST-LIO2
+    - 3D LiDAR Global Localization
+
+  navigation:
+    - Nav2
+
+engineering_tasks:
+  architecture:
+    - Designed ROS2 navigation system architecture
+    - Defined localization and navigation boundaries
+
+  integration:
+    - Integrated LiDAR, chassis, TF and navigation modules
+    - Built testing workflow using ROS bag data
+
+  validation:
+    - Outdoor environment evaluation
+    - Localization and navigation testing
+
+technical_keywords:
+  resume:
+    - SLAM
+    - LiDAR Localization
+    - ROS2
+    - Autonomous Navigation
+    - Sensor Fusion
+
+  thesis:
+    - GNSS degraded environment
+    - 3D map based localization
+    - Mobile robot navigation
