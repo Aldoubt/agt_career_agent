@@ -1,0 +1,30 @@
+stack:
+  middleware:
+    name: ROS2 Humble
+
+  robot_framework:
+    - URDF
+    - TF2
+    - rosbag
+    - RViz2
+
+  localization:
+    - FAST-LIO2
+    - 3D LiDAR Global Localization
+    - RTK assisted localization
+
+  navigation:
+    - Nav2
+    - global planner
+    - local controller
+
+  mapping:
+    - point cloud map
+    - occupancy map
+    - elevation map
+
+engineering_principles:
+  - modular ROS2 nodes
+  - reproducible experiments
+  - hardware software separation
+  - data driven validation
