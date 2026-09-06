@@ -1,0 +1,20 @@
+experiment:
+  name: example_outdoor_navigation_test
+  platform: Bunker_tracked_robot
+
+sensor:
+  lidar: Hesai_MID360
+  imu: integrated_lidar_imu
+  gnss: RTK_placeholder
+
+software:
+  ros: ROS2_Humble
+  localization:
+    - FAST_LIO2
+    - Global_Localization
+  navigation:
+    - Nav2
+
+notes:
+  environment: outdoor_complex_scene
+  purpose: localization_and_navigation_evaluation
