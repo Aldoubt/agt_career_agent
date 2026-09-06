@@ -1,0 +1,31 @@
+research:
+  main_topic: complex outdoor mobile robot autonomous navigation
+
+background:
+  problem:
+    - GNSS degradation in tree covered environments
+    - dynamic outdoor conditions
+    - vibration from tracked chassis
+
+system_solution:
+  localization:
+    primary:
+      - 3D LiDAR global localization
+      - FAST-LIO2 continuous tracking
+    auxiliary:
+      - RTK GNSS
+      - IMU fusion
+
+navigation:
+  framework:
+    - ROS2 Humble
+    - Nav2
+
+possible_innovation_points:
+  - robust localization under GNSS denied conditions
+  - point cloud map processing for navigation
+  - multi mode localization framework
+  - engineering deployment of autonomous robot system
+
+paper_direction:
+  title_candidate: 面向复杂户外环境的多传感器融合移动机器人自主导航系统研究
