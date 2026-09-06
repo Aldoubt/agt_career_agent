@@ -1,0 +1,41 @@
+project:
+  name: agt_finance_agent
+  domain:
+    - AI Agent
+    - automation
+    - document intelligence
+
+objective:
+  - automate invoice and expense document organization
+  - build reusable AI assisted finance workflow
+
+input:
+  - invoice images
+  - purchase proofs
+  - payment screenshots
+
+output:
+  - structured folders
+  - PDF document index
+  - DOCX physical item records
+
+technical_direction:
+  - OCR
+  - multimodal AI
+  - agent workflow
+  - document processing
+
+my_contribution:
+  - system architecture design
+  - workflow planning
+  - software engineering
+
+resume_keywords:
+  - AI Agent
+  - Multimodal Processing
+  - Automation Workflow
+
+interview_topics:
+  - agent architecture
+  - tool calling
+  - document intelligence
