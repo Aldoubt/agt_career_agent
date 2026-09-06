@@ -1,0 +1,37 @@
+metrics:
+  localization:
+    description: Metrics for evaluating SLAM and global localization performance.
+    items:
+      - name: ATE
+        full_name: Absolute Trajectory Error
+        usage: Evaluate global pose consistency.
+      - name: RPE
+        full_name: Relative Pose Error
+        usage: Evaluate local tracking accuracy.
+      - name: RMSE
+        full_name: Root Mean Square Error
+        usage: Quantitative accuracy comparison.
+      - name: initialization_time
+        usage: Measure global relocalization startup time.
+      - name: recovery_time
+        usage: Measure pose recovery capability after localization failure.
+
+  navigation:
+    description: Metrics for Nav2 autonomous navigation evaluation.
+    items:
+      - name: success_rate
+        usage: Percentage of completed navigation tasks.
+      - name: goal_error
+        usage: Distance error between target and final pose.
+      - name: path_length
+        usage: Compare planned and executed trajectories.
+      - name: navigation_time
+        usage: Total execution time.
+
+  system:
+    description: Runtime performance metrics.
+    items:
+      - name: cpu_usage
+      - name: memory_usage
+      - name: node_frequency
+      - name: latency
