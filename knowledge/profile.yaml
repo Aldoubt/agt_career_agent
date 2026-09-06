@@ -1,0 +1,36 @@
+profile:
+  name: Aldoubt
+  focus:
+    - Robotics
+    - Autonomous Navigation
+    - AI Agent Engineering
+
+career_targets:
+  - Robotics Algorithm Engineer
+  - Autonomous Driving Engineer
+  - AI Engineer
+  - Research Engineer
+
+technical_stack:
+  robotics:
+    - ROS2 Humble
+    - SLAM
+    - LiDAR Localization
+    - Nav2
+    - Sensor Fusion
+
+  software:
+    - Python
+    - C++
+    - Git
+    - Linux
+
+  ai:
+    - Large Language Models
+    - Agent Workflow
+    - Automation
+
+principles:
+  - Engineering first
+  - Evidence based writing
+  - Reusable technical assets
