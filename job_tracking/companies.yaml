@@ -1,0 +1,8 @@
+companies:
+  - name: example_company
+    position: robotics_engineer
+    direction:
+      - SLAM
+      - autonomous_navigation
+    status: preparing
+    notes: ""
